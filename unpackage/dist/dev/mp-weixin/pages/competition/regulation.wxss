@@ -1,0 +1,780 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* canvas内容区域 */
+.wrapper {
+	border: 1prx solid red;
+	width: 100%;
+	height: 100%;
+}
+.box {
+	width: 100vw;
+	position: relative;
+	/* margin-bottom:100rpx; */
+}
+.top {
+	height: 130rpx;
+	padding: 0 30rpx;
+	padding-top: 80rpx;
+	position: fixed;
+	-webkit-transform: translateZ(0);
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+.top image {
+	width: 20rpx;
+	height: 38rpx;
+}
+.topright_box,
+.topelft_box {
+	width: 40rpx;
+	height: 80rpx;
+}
+.barner {
+	width: 100%;
+	/* height:35%; */
+	height: 466rpx;
+	background-image: url(https://wmjsapi.perfectrace.cn/images/img_tp_1_50bzzx@2x.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	        align-items: flex-end;
+	position: relative;
+}
+.box_list {
+	width: 100%;
+	overflow-y: scroll;
+}
+.box_item {
+	width: 100%;
+	height: 500rpx;
+}
+.posimg {
+	height: 90rpx;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: #C9E7F1;
+}
+.barner_border {
+	width: 88%;
+	margin: 0 6%;
+	height: 160rpx;
+	background-color: #00AEEB;
+	border-radius: 15rpx 15rpx;
+	color: #EFF8FF;
+	position: relative;
+	z-index: 23;
+	font-size: 32rpx
+}
+.texts {
+	padding-top: 20rpx;
+	margin-left: 20rpx;
+	display: -webkit-flex;
+	display: flex;
+	overflow: hidden;
+	word-break: break-all;
+	/* break-all(允许在单词内换行。) */
+	text-overflow: ellipsis;
+	/* 超出部分省略号 */
+	display: -webkit-box;
+	/** 对象作为伸缩盒子模型显示 **/
+	-webkit-box-orient: vertical;
+	/** 设置或检索伸缩盒对象的子元素的排列方式 **/
+	-webkit-line-clamp: 1;
+}
+.text {
+	margin-top: 5rpx;
+	font-size: 28rpx;
+	margin-left: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.zhub {
+	width: 100%;
+	line-height: 80rpx;
+	font-size: 34rpx;
+	font-weight: 800;
+	background-color: #FFFFFF;
+	padding: 0 0 0rpx 20rpx;
+}
+.big_box {
+	width: 100%;
+	/* border:1rpx solid red; */
+	/* height:1000rpx; */
+}
+.flexs1 {
+	font-size: 32rpx;
+	margin-top: 5rpx;
+}
+.bm_img {
+	width: 100%;
+	height: 280rpx;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+	position: relative;
+}
+.bm_border {
+	width: 110rpx;
+	height: 42rpx;
+	line-height: 42rpx;
+	border-radius: 50rpx 50rpx;
+	background-color: #FCD00B;
+	text-align: center;
+	margin: 20rpx 36rpx 0 0;
+	font-size: 28rpx;
+	padding-top: 2rpx;
+}
+.immediately {
+	position: absolute;
+	bottom: 20rpx;
+	right: 20rpx;
+	width: 150rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	border-radius: 50rpx 50rpx;
+	background-color: #FCD00B;
+	text-align: center;
+	font-size: 28rpx;
+	padding-top: 2rpx;
+}
+.colors {
+	color: #8F8F8F;
+}
+.button {
+	width: 100%;
+	height: 260rpx;
+	background-image: url(https://wmjsapi.perfectrace.cn/images/img_zb_tp_5ssxq@2x.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-top: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+	margin-top: 30rpx;
+}
+.click_bm {
+	height: 100rpx;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 33;
+	border-radius: 48rpx 0 0 0;
+	text-align: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding-left: 20rpx;
+}
+.action {
+	width: 100%;
+	height: 120rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding-right: 30rpx;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	/* 		position: absolute;
+	bottom: 0; */
+}
+.click_fx {
+	/* width:200rpx; */
+	width: 100%;
+	margin: 0 10rpx;
+	background-color: #007AFF;
+	line-height: 66rpx;
+	font-size: 34rpx;
+	color: #FCDB53;
+}
+.click_bms {
+	width: 200rpx;
+	line-height: 66rpx;
+	color: #341A00;
+	font-size: 34rpx;
+}
+.cu-dialog {
+	width: 80%;
+	/* height:850rpx; */
+	margin: 0 10%;
+}
+.bg_img {
+	width: 700rpx;
+	height: 330rpx;
+	background-size: 102% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.bg_img_certificate {
+	width: 700rpx;
+	height: 330rpx;
+	background-size: 102% 100%;
+	background-repeat: no-repeat;
+}
+.lastbtn {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.actions {
+	font-size: 34rpx;
+	font-weight: 500;
+	color: #201F00;
+	width: 200rpx !important;
+	height: 100rpx;
+	line-height: 100rpx;
+	background-color: #FCD00B;
+	margin-top: 30rpx;
+	margin-bottom: 20rpx;
+	border-radius: 20rpx;
+}
+.bj_img image {
+	width: 160rpx;
+	height: 160rpx;
+	margin-top: 30rpx;
+}
+.text-bold {
+	font-size: 32rpx;
+	color: #3E3E3E;
+	margin-top: 20rpx;
+}
+.box_s {
+	margin-left: 20rpx;
+	margin-bottom: 20rpx;
+	overflow: hidden;
+}
+.texthint{
+	width: 646rpx;
+	height: 46rpx;
+	line-height: 46rpx;
+	text-align: center;
+	color:#FFFFFF;
+	position: fixed;
+	z-index: 999;
+	top: 1200rpx;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0);
+	        transform: translate(-50%, 0);
+}
+.closebtnclick {
+	position: absolute;
+	z-index: 2000;
+	width: 46rpx;
+	height: 46rpx;
+	top: -23rpx;
+	right: -23rpx;
+}
+.outclosebox {
+	width: 646rpx;
+	height: 46rpx;
+	position: fixed;
+	z-index: 2000;
+	top: 227rpx;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0);
+	        transform: translate(-50%, 0);
+}
+.outclosebtnclick {
+	position: absolute;
+	z-index: 2000;
+	width: 46rpx;
+	height: 46rpx;
+	top: 0;
+	right: 0;
+}
+.richclass{
+	/* border:1rpx solid red; */
+	padding: 0 20rpx;
+}
+

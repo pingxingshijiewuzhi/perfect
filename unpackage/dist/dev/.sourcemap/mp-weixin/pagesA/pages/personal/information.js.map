@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///D:/wangzichi/perfect/perfectcopy/perfect/main.js"],"names":["createPage","Page"],"mappings":";;;;wEAAA,qBACA,sBACA,yI,mDACAA,EAAWC,a","file":"pagesA/pages/personal/information.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pagesA/pages/personal/information.vue'\ncreatePage(Page)"],"sourceRoot":""}

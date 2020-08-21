@@ -1,0 +1,1 @@
+<view class="content"><rich-text nodes="{{itemList}}" bindtap="tap"></rich-text></view>

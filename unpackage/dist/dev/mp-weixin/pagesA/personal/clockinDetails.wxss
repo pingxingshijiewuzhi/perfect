@@ -1,0 +1,128 @@
+
+.content{
+	width:100vw;
+	overflow: hidden;
+	/* background-color: #FFFFFF; */
+	overflow-y: scroll;
+}
+.box_one{
+	width:100%;
+	/* height:38%; */
+	height:500rpx;
+	/* border:1px solid red; */
+	background-color: #FFFFFF;
+	margin-bottom:10rpx
+}
+.box_list{
+	width:94%;
+	height:17%;
+	border-bottom:1px solid #EBEBEB;
+	margin-left:50rpx
+}
+/* 每日感受 */
+.especiallybox_list{
+	width:94%;
+	border-bottom:1px solid #EBEBEB;
+	margin-left:50rpx
+}
+.especiallytimes{
+	color:#A9A9A9;
+	width:400rpx;
+}
+/* 每日感受 */
+.box_two{
+	width:100%;
+	/* height:44%; */
+	height:590rpx;
+	/* border:1px solid red; */
+	background-color: #FFFFFF;
+	margin-bottom:10rpx
+}
+.box_list_two{
+	width:94%;
+	height:15%;
+	border-bottom:1px solid #EBEBEB;
+	margin-left:50rpx
+}
+.box_list_img{
+	width:94%;
+	height:20%;
+	margin-left:50rpx
+}
+.box_list_img3{
+	width:94%;
+	height:10%;
+	margin-left:50rpx
+}
+.times{
+	color:#A9A9A9;
+}
+.box_new{
+	width:100%
+}
+.box_new_three{
+	/* height:8%; */
+	height:92rpx;
+	width:94%;
+	border-bottom:1px solid #EBEBEB;
+	margin-left:50rpx
+}
+.times_new image{
+	width:30rpx;
+	height:30rpx
+}
+.left{
+	width:28%;
+}
+.right image{
+	width:120rpx;
+	height:120rpx;
+	margin-top:50rpx
+}
+.box_three{
+	width:100%;
+	height:2600rpx;
+	/* border:1px solid red; */
+	background-color: #FFFFFF;
+	margin-bottom:10rpx
+}
+.box_list_three{
+	width:94%; 
+	/* height:6%; */
+	height:92rpx;
+	border-bottom:1px solid #EBEBEB;
+	margin-left:50rpx
+}
+/* 单选框高度,单独写 */
+.radiobox_new_three{
+	width:94%;
+	/* height:92rpx; */
+	border-bottom:1px solid #EBEBEB;
+	margin-left:50rpx
+}
+.radiobox_new_three image{
+	margin-right: 10rpx;
+}
+.radiotitle{
+	height:60rpx;
+	line-height: 60rpx;
+}
+.times_new{
+	height:80rpx;
+	color:#A9A9A9;
+	width:80%
+}
+/* 单选按钮标题,单独写 */
+.box_four{
+	width:100%;
+	height:50%;
+	/* border:1px solid red; */
+	background-color: #FFFFFF;
+	margin-bottom:10rpx
+}
+.right3 image{
+	width:120rpx;
+	height:120rpx;
+	margin-top:20rpx
+}
+

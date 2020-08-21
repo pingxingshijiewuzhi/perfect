@@ -1,0 +1,217 @@
+
+.box{
+	width:100vw;
+	/* height:1400rpx; */
+	/* height:100vh; */
+	overflow-y: scroll;
+	/* margin-bottom: 100rpx; */
+}
+swiper{
+	height: 540rpx;
+}
+swiper swiper-item image{
+	height:540rpx !important;
+	width:100% !important;
+}
+.bgc{
+	width:100%;
+	/* height:100%; */
+	background-color:#11476B;
+	/* background-color:red; */
+}
+.click{	
+		text-align: center;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-justify-content: space-around;
+		        justify-content: space-around;
+		padding-top: 30rpx;
+		color: #EEF2F5;
+}
+.click_l{
+	padding-top: 34rpx;
+	width:240rpx;
+	height:140rpx;
+	background-image: url(https://wmjsapi.perfectrace.cn/images/static/image/btn_sszx_1xcxsy@2x.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.ziti{
+	margin-top: 6rpx;
+	font-size: 38rpx;
+}
+.zitis{
+	color: #E4E8ED;
+	margin-left: 15rpx;
+}
+.click_c{
+	width:240rpx;
+	height:140rpx;
+	background-image: url(https://wmjsapi.perfectrace.cn/images/static/image/btn_xly_1xcxsy@2x.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding-top: 34rpx;
+}
+.click_r{
+	width:240rpx;
+	height:140rpx;
+	background-image: url(https://wmjsapi.perfectrace.cn/images/static/image/btn_dk_1xcxsy@2x.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding-top: 34rpx;
+}
+.english{
+	font-size: 20rpx;
+}
+.chinese{
+	font-size: 32rpx;
+}
+.border{
+	width:100%;
+	/* height:640rpx; */
+	/* overflow-y: scroll; */
+	/* border: 1px solid red; */
+}
+.centers{
+	color: #FCFFFF;
+}
+.center_top{
+	margin: 10rpx 0 0 12rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+	font-size: 36rpx;
+}
+.ziti{
+	font-size: 38rpx;
+}
+.center_bu{
+	font-size: 20rpx;
+	margin-left: 12rpx;
+}
+.center{
+	width: 94%;
+	height:200rpx;
+	margin-left: 3%;
+	background-color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding: 0 20rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border-radius: 10rpx;
+	margin-top: 10rpx;
+	position: relative;
+}
+.center_cneter{
+	font-size: 28rpx;
+	padding-left: 10rpx;
+	width: 340rpx;
+	height:auto;
+}
+.center_txt{
+	/* max-height: 120rpx; */
+	height:74rpx;
+	width: 450rpx;
+	overflow: hidden;
+	word-break: break-all;  /* break-all(允许在单词内换行。) */
+	text-overflow: ellipsis;  /* 超出部分省略号 */
+	display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+	-webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+	-webkit-line-clamp: 2;
+	color: #515151;
+	font-size: 28rpx;
+}
+.left {
+	width: 190rpx;
+	height: 170rpx;
+	background-image: url(https://wmjsapi.perfectrace.cn/images/static/image/date.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.left_big{
+	width: 190rpx;
+	height: 120rpx;
+	/* border:1rpx solid red; */
+}
+.left_top{
+	color:#F11014;
+	font-size: 56rpx;
+	letter-spacing: 2rpx;
+}
+.left_bottom{
+	color:#0D0D0D;
+	font-size: 42rpx;
+	height:60rpx;
+	line-height: 60rpx;
+}
+.center_time{
+	margin-top: 10rpx;
+	color:.#CFCFCF;
+	font-size: 28rpx;
+}
+.center_tops{
+	font-size: 35rpx;
+	font-weight: 800;
+	height:48rpx;
+	line-height: 48rpx;
+	/* overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap; */
+	overflow: hidden;
+	word-break: break-all;  /* break-all(允许在单词内换行。) */
+	text-overflow: ellipsis;  /* 超出部分省略号 */
+	display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+	-webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+	-webkit-line-clamp: 1;
+}
+.center_right{
+	position: absolute;
+	top:0;
+	right:0;
+	width: 150rpx;
+	height: 50rpx;
+	color: #FFFFFF;
+	background-image: url(https://wmjsapi.perfectrace.cn/images/static/image/img_bmz_ds_1xcxsy@2x.png);
+	background-size: 120rpx 60rpx;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+	display: -webkit-box;	
+	display: -webkit-flex;	
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+}
+.right_z{
+		font-size: 26rpx
+}
+.center_right image{
+	width: 26rpx;
+	height: 30rpx;
+	margin: 4rpx 10rpx 0 16rpx;
+}
+.borders{
+	width:100%;
+	height:600rpx;
+	overflow-y: scroll;
+}
+uni-swiper .uni-swiper-dot-active{
+	width: 50rpx !important;
+	height: 10rpx !important;
+	background-color: #14B3EB !important;
+}
+.uni-loadmore {
+	text-align: center;
+}
+.addredcolor{
+	color:red;
+}
+

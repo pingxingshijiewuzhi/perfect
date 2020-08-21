@@ -1,0 +1,28 @@
+
+.content{
+	width:100vw
+}
+.list{
+	width:100%;
+	height:100rpx;
+	border-top:1px solid #ECECEC;
+	background-color: #FFFFFF;
+}
+.list_box{
+	width:94%;
+	height:80rpx;
+}
+.right{
+	width:18rpx;
+	height:30rpx;
+}
+/* 按钮向下样式 */
+.rightdown{
+	width:30rpx;
+	height:18rpx;
+}
+.big_box{
+	width:94%;
+	margin:30rpx auto
+}
+

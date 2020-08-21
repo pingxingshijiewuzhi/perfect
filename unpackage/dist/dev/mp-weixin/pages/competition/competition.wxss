@@ -1,0 +1,126 @@
+
+page{
+	background-color: #FFFFFF;
+}
+.box{
+	background-color: #FFFFFF;
+	width: 100vw;
+	overflow-y: scroll;
+}
+.border{
+	width:100%;
+	height:100%;
+	overflow-y: scroll;
+}
+.center{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+	border-bottom: solid 1rpx #F4F4F4;
+}
+.box_list{
+	width:100%;
+	/* overflow-y: scroll; */
+	margin-top: 14rpx;
+}
+.left {
+	width: 190rpx;
+	height: 170rpx;
+	background-image: url(https://wmjsapi.perfectrace.cn/images/static/image/date.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 20rpx 0 20rpx 20rpx;
+}
+.left_big{
+	width: 190rpx;
+	height: 120rpx;
+}
+.left_top{
+	color:#F11014;
+	font-size: 56rpx;
+	letter-spacing: 2rpx;
+}
+.left_bottom{
+	color:#0D0D0D;
+	font-size: 42rpx;
+}
+.center_cneter{
+margin-top: 30rpx;
+margin-left: 10rpx;
+width: 340rpx;
+height:auto;
+}
+.center_txt{
+	/* max-height: 120rpx; */
+	height:74rpx;
+	width: 430rpx;
+	overflow: hidden;
+	word-break: break-all;  /* break-all(允许在单词内换行。) */
+	text-overflow: ellipsis;  /* 超出部分省略号 */
+	display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+	-webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+	-webkit-line-clamp: 2;
+	color: #515151;
+	font-size: 28rpx;
+}
+.center_time{
+	margin-top: 10rpx;
+	color:#B2B2B2;
+	font-size: 28rpx;
+}
+.center_tops{
+	width:340rpx;
+	height:40rpx;
+	overflow: hidden;
+	word-break: break-all;  /* break-all(允许在单词内换行。) */
+	text-overflow: ellipsis;  /* 超出部分省略号 */
+	display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+	-webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+	-webkit-line-clamp: 1;
+	font-size: 30rpx;
+	color: #333333;
+}
+.right{
+	width: 150rpx;
+	height: 50rpx;
+	color: #E20911;
+	font-size: 32rpx;
+	font-weight: 500;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+	margin-top: 30rpx;
+	margin-left: 16rpx;
+}
+.inputs{
+	width: 500rpx;
+	height: 30rpx;
+}
+.bg_img{
+	width:70%;
+	margin:35% 15% 0 15%;
+	height: 300rpx;
+	background-image: url(https://wmjsapi.perfectrace.cn/images/static/image/img_sswk_4k@2x.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.border_text{
+	font-size: 34rpx;
+	text-align: center;
+	color: #A7A7A7;
+	margin-top: 60rpx;
+}
+.uni-loadmore {
+	text-align: center;
+}
+/* 添加报名中颜色 */
+.addblue{
+	color:#0081FF;
+}
+

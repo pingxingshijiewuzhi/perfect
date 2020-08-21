@@ -1,0 +1,56 @@
+
+.box{
+	width: 100vw;
+	height: 100vh;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+.box_list{
+	width: 90%;
+	height: 40%;
+	margin: 0 5%;
+}
+.phone{
+	line-height: 100rpx;
+	border-bottom: solid 1rpx #EEEEEE;
+}
+.phones{
+	margin-top: 40rpx;
+	font-size: 32rpx;
+	font-weight: 600;
+	letter-spacing: 2rpx;
+}
+input{
+	margin-top: 40rpx;
+	width:340rpx;
+}
+.fl input{
+	margin-left:30rpx;
+}
+.bottoms input{
+	margin-left: 60rpx;
+}
+.get_code{
+	font-size: 32rpx;
+	color: #2FBEEE;
+	font-weight: 500;
+	margin-top: 38rpx;
+	letter-spacing: 2rpx;
+}
+.button{
+	width: 92%;
+	line-height: 90rpx;
+	margin: 0 4%;
+	border-radius: 50rpx 50rpx;
+	background-color: #FCD00B;
+	font-size: 38rpx;
+	font-weight:600;
+	text-align: center;
+	margin-top: 100rpx;
+	letter-spacing: 2rpx;
+}
+.input-placeholder{
+	color:#A2A2A2;
+	letter-spacing: 2rpx;
+}
+

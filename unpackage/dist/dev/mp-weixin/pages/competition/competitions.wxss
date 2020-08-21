@@ -1,0 +1,371 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 谁设置了所有页面背景色 */
+page{
+	background-color: #FFFFFF;
+}
+.box{
+	width:100vw;
+	position: relative;
+	background-color: #FFFFFF;
+	overflow-y: scroll;
+}
+/* 顶部导航栏样式 */
+.top{
+	height:130rpx;
+	padding: 0 30rpx;
+	padding-top: 80rpx;
+	position: absolute;
+	/* position: fixed; */
+	/* position: static; */
+	-webkit-transform: translateZ(0);
+	top:0;
+	left:0;
+	right:0;
+	background-color: #FFFFFF;
+	z-index: 999;
+}
+.top image{
+	width:20rpx;
+	height:38rpx;
+}
+.topright_box, .topelft_box{
+	width:40rpx;
+	height:80rpx;
+}
+.notruetop{
+	width:100%;
+	height:80rpx;
+	margin-top: 50rpx;
+}
+.title{
+	font-size: 32rpx;
+}
+.center_top{
+	font-size: 30rpx;
+	height:40rpx;
+	width:340rpx;
+	color: #333333;
+	/* overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap; */
+	
+	overflow: hidden;
+	word-break: break-all;  /* break-all(允许在单词内换行。) */
+	text-overflow: ellipsis;  /* 超出部分省略号 */
+	display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+	-webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+	-webkit-line-clamp: 1;
+}
+.action{
+	margin-right: 0rpx !important;
+	width: 120rpx;
+}
+.cu-bar .action:last-child {
+	margin-right: 0 !important;
+	width: 120rpx;
+}
+.center{
+	width:100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+	border-bottom: solid 1rpx #F4F4F4;
+	position: relative;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height:200rpx;
+}
+.center_cneter{
+	font-size: 28rpx;
+	padding-left: 10rpx;
+	width: 340rpx;
+	height:auto;
+}
+.center_txt{
+	/* max-height: 120rpx; */
+	height:74rpx;
+	width: 430rpx;
+	overflow: hidden;
+	word-break: break-all;  /* break-all(允许在单词内换行。) */
+	text-overflow: ellipsis;  /* 超出部分省略号 */
+	display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+	-webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+	-webkit-line-clamp: 2;
+	color: #515151;
+	font-size: 28rpx;
+}
+.center_time{
+	margin-top: 5rpx;
+	color: #C6C6C6;
+	font-size: 30rpx;
+}
+.left {
+	width: 190rpx;
+	height: 170rpx;
+	background-image: url(https://wmjsapi.perfectrace.cn/images/static/image/date.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.left_big{
+	width: 190rpx;
+	height: 120rpx;
+}
+.left_top{
+	color:#F11014;
+	font-size: 56rpx;
+	letter-spacing: 2rpx;
+}
+.left_bottom{
+	color:#0D0D0D;
+	font-size: 42rpx;
+}
+.right{
+	position: absolute;
+	top:35rpx;
+	right:40rpx;
+	color: #F20E10;
+}
+.inputs{
+	width: 500rpx;
+	height: 30rpx;
+}
+.box_list{
+	/* height: 1400rpx; */
+	width: 100%;
+	overflow-y: scroll;
+}
+.cu-bar{
+	width:92%;
+}
+.bg_img{
+	width:70%;
+	margin:40% 15% 0 15%;
+	height: 300rpx;
+	background-image: url(https://wmjsapi.perfectrace.cn/images/static/image/img_sswk_4k@2x.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.border_text{
+	font-size: 34rpx;
+	text-align: center;
+	color: #A7A7A7;
+	margin-top: 60rpx;
+}
+.uni-loadmore {
+	text-align: center;
+}
+/* 添加报名中颜色 */
+.addblue{
+	color:#0081FF;
+}
+

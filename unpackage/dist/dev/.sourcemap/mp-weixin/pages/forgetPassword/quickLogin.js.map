@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///D:/wangzichi/perfect/perfect/main.js"],"names":["createPage","Page"],"mappings":";;;;wEAAA,qBACA,sBACA,uD,mDACAA,EAAWC,a","file":"pages/forgetPassword/quickLogin.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/forgetPassword/quickLogin.vue'\ncreatePage(Page)"],"sourceRoot":""}

@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/quickLogin/quickLogin",
+    "pages/personal/personal",
+    "pages/index/index",
+    "pages/competition/competition",
+    "pages/competition/competitions",
+    "pages/competition/noresult",
+    "pages/competition/regulation",
+    "pages/competition/group",
+    "pages/form/form",
+    "pages/competition/camp",
+    "pages/pushCard/pushCard",
+    "pages/pushCard/claockType",
+    "pages/pushCard/center",
+    "pages/personal/myevent",
+    "pages/bootCamp/bootCamp",
+    "pages/forgetPassword/forgetPassword",
+    "pages/forgetPassword/login",
+    "pages/trainingCamp/trainingCamp",
+    "pages/signUp/signUp",
+    "pages/results/results"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesA",
+      "pages": [
+        "personal/information",
+        "personal/aboutUs",
+        "personal/help",
+        "personal/clockinDetails",
+        "personal/clockin"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "完美佳速",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#D0D3D8",
+    "selectedColor": "#14B3EB",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/icon_sy_ty@2x.png",
+        "selectedIconPath": "static/image/icon_sy_selected_ty@2x.png",
+        "enablePullDownRefresh": true,
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/competition/competition",
+        "iconPath": "static/image/icon_ss_ty@2x.png",
+        "selectedIconPath": "static/image/icon_ss_selected_ty@2x.png",
+        "enablePullDownRefresh": true,
+        "text": "赛事"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "static/image/icon_wd_ty@2x.png",
+        "selectedIconPath": "static/image/icon_wd_selected_ty@2x.png",
+        "enablePullDownRefresh": true,
+        "text": "我的"
+      }
+    ]
+  },
+  "preloadRule": {},
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

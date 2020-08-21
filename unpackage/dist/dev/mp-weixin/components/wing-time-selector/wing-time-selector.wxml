@@ -1,0 +1,1 @@
+<view><picker mode="multiSelector" range="{{dates}}" value="{{value}}" disabled="{{disabled}}" data-event-opts="{{[['change',[['confirm',['$event']]]],['columnchange',[['scroll',['$event']]]],['cancel',[['cancel',['$event']]]]]}}" bindchange="__e" bindcolumnchange="__e" bindcancel="__e"><slot></slot></picker></view>

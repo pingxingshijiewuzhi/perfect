@@ -1,0 +1,326 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{//首页
+			"path": "pages/index/index",
+			"style": {
+					"navigationStyle":"custom"
+			}
+		},
+		{
+		    "path" : "pages/quickLogin/quickLogin",
+		    "style" : {
+				"navigationStyle":"custom"
+			}
+		},
+		{ //我的
+			"path" : "pages/personal/personal",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{//赛事 取消搜索
+			"path": "pages/competition/competition",
+			"style": {
+				"navigationBarTitleText": "热门赛事",
+				"app-plus": {
+				  "titleNView": {    
+				    "splitLine": {  
+				      "color":"#EAEAEA"  
+				    }    
+				  }    
+				}
+			}
+		},
+		{//赛事 搜索
+			"path": "pages/competition/competitions",
+			"style": {
+				"navigationStyle":"custom",
+				"app-plus": {
+				  "titleNView": {    
+				    "splitLine": {  
+				      "color":"#EAEAEA"  
+				    }    
+				  }    
+				}
+				
+			}
+		},{//没有 搜索结果
+			"path": "pages/competition/noresult",
+			"style": {
+				"navigationBarTitleText": "热门赛事",
+				"app-plus": {
+				  "titleNView": {    
+				    "splitLine": {  
+				      "color":"#EAEAEA"  
+				    }    
+				  }    
+				}
+			}
+		},{// 赛事详情
+			"path": "pages/competition/regulation",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},{// 组别
+			"path": "pages/competition/group",
+			"style": {
+				"navigationBarTitleText": "组别",
+				"app-plus": {
+				  "titleNView": {    
+				    "splitLine": {  
+				      "color":"#EAEAEA"  
+				    }    
+				  }    
+				}
+			}
+		},{// 组别报名
+			"path": "pages/form/form",
+			"style": {
+				"navigationBarTitleText": "报名表",
+				"app-plus": {
+				  "titleNView": {    
+				    "splitLine": {  
+				      "color":"#EAEAEA"  
+				    }    
+				  }    
+				}
+			}
+		},{// 热门训练营 搜索
+			"path": "pages/competition/camp",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{// 普通打卡
+			"path": "pages/pushCard/pushCard",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{//打卡类型
+			"path": "pages/pushCard/claockType",
+			"style": {
+				"navigationBarTitleText": "打卡类型",
+				"app-plus": {
+				  "titleNView": {    
+				    "splitLine": {  
+				      "color":"#EAEAEA"  
+				    }    
+				  }    
+				}
+			}
+		},
+		{//打卡内容
+			"path": "pages/pushCard/center",
+			"style": {
+				"navigationBarTitleText": "打卡内容",
+				"app-plus": {
+				  "titleNView": {    
+				    "splitLine": {  
+				      "color":"#EAEAEA"  
+				    }    
+				  }    
+				}
+			}
+		},
+		{//我的赛事
+			"path": "pages/personal/myevent",
+			"style": {
+				"navigationBarTitleText": "我的赛事",
+				"app-plus": {
+				  "titleNView": {    
+				    "splitLine": {  
+				      "color":"#EAEAEA"  
+				    }    
+				  }    
+				}
+			}
+		},
+		{//训练营详情
+			"path": "pages/bootCamp/bootCamp",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{//忘记密码
+			"path": "pages/forgetPassword/forgetPassword",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"app-plus": {
+				  "titleNView": {    
+				    "splitLine": {  
+				      "color":"#EAEAEA"  
+				    }    
+				  }    
+				}
+			}
+		},
+		{//注册
+			"path": "pages/forgetPassword/login",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"app-plus": {
+				  "titleNView": {    
+				    "splitLine": {  
+				      "color":"#EAEAEA"  
+				    }    
+				  }    
+				}
+			}
+		},
+		 {//训练营打卡
+		 	"path": "pages/trainingCamp/trainingCamp",
+		 	"style": {
+		 		"navigationStyle":"custom"
+		 	}
+		 },
+		{//报名表 results
+			"path": "pages/signUp/signUp",
+			"style": {
+				"navigationBarTitleText": "报名表",
+				"app-plus": {
+				  "titleNView": {    
+				    "splitLine": {  
+				      "color":"#EAEAEA"  
+				    }    
+				  }    
+				}
+			}
+		},
+		{//我的赛事
+			"path": "pages/results/results",
+			"style": {
+				"navigationBarTitleText": "报名结果",
+				"app-plus": {
+				  "titleNView": {    
+				    "splitLine": {  
+				      "color":"#EAEAEA"  
+				    }    
+				  }    
+				}
+			}
+		}
+    ],
+   "subPackages": [{
+		"root": "pagesA",
+		"pages": [
+			{//个人信息
+				"path": "personal/information",
+				"style": {
+					"navigationStyle":"custom"
+				}
+			},
+			{//普通打卡详情
+				"path": "personal/commonclockin",
+				"style": {
+					"navigationBarTitleText": "普通打卡记录",
+					"app-plus": {
+					  "titleNView": {    
+					    "splitLine": {  
+					      "color":"#EAEAEA"  
+					    }    
+					  }    
+					}
+				}
+			},
+			{//关于我们
+				"path": "personal/aboutUs",
+				"style": {
+					"navigationBarTitleText": "关于我们",
+					"app-plus": {
+					  "titleNView": {    
+					    "splitLine": {  
+					      "color":"#EAEAEA"  
+					    }    
+					  }    
+					}
+				}
+			},
+			{//帮助中心
+				"path": "personal/help",
+				"style": {
+					"navigationBarTitleText": "帮助中心",
+					"app-plus": {
+					  "titleNView": {    
+					    "splitLine": {  
+					      "color":"#EAEAEA"  
+					    }    
+					  }    
+					}
+				}
+			},
+			{//打卡记录---详情
+				"path": "personal/clockinDetails",
+				"style": {
+					"navigationBarTitleText": "训练营打卡记录",
+					"app-plus": {
+					  "titleNView": {    
+					    "splitLine": {  
+					      "color":"#EAEAEA"  
+					    }    
+					  }    
+					}
+				}
+			},
+			{//打卡记录
+				"path": "personal/clockin",
+				"style": {
+					"navigationBarTitleText": "打卡记录",
+					"app-plus": {
+					  "titleNView": {    
+					    "splitLine": {  
+					      "color":"#EAEAEA"  
+					    }    
+					  }
+					}
+				}
+			}
+			
+	]
+	}, {
+		"root": "pagesB",
+		"pages": [
+
+		]
+	}],
+	"preloadRule": {
+		// "pagesB/pages/personal/clockinDetails": {
+		// 	"network": "all",
+		// 	"packages": ["pagesA"]
+		// }
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "完美佳速",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#D0D3D8",
+		"selectedColor": "#14B3EB",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/image/icon_sy_ty@2x.png",
+				"selectedIconPath": "static/image/icon_sy_selected_ty@2x.png",
+				"enablePullDownRefresh": true,
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/competition/competition",
+				"iconPath": "static/image/icon_ss_ty@2x.png",
+				"selectedIconPath": "static/image/icon_ss_selected_ty@2x.png",
+				"enablePullDownRefresh": true,
+				"text": "赛事"
+			},{
+				"pagePath": "pages/personal/personal",
+				"iconPath": "static/image/icon_wd_ty@2x.png",
+				"selectedIconPath": "static/image/icon_wd_selected_ty@2x.png",
+				"enablePullDownRefresh": true,
+				"text": "我的"
+			}
+		]
+	}
+}

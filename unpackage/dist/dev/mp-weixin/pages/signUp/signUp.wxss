@@ -1,0 +1,1182 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/* 给报名input高度,防止提示框显示不全 */
+.addinputheight{
+		height:50rpx;
+		line-height: 50rpx;
+}
+	/* 单独给生日加右对齐 */
+.brithdaypicker{
+	width:400rpx;
+	text-align: left;
+}
+	/* 身体数据居中对齐 */
+.picker{
+		text-align: center;
+}
+.contents{
+		width:100vw;
+		background-color: #F1F1F1;
+		/* 固定定位 */
+	
+		position: relative;
+}
+.top{
+		width:100%;
+		border:1px solid #FFFFFF;
+		background-color: #FFFFFF;
+}
+.middle{
+		width:100%;
+		background-color: #FFFFFF;
+		margin:10rpx auto
+}
+.last{
+		width:100%;
+		background-color: #FFFFFF;
+		margin:10rpx auto;
+}
+.top_list{
+		width:94%;
+		height:84rpx;
+		/* border:1px solid red; */
+		margin:0 auto
+}
+.screenwidth{
+		text-align: center;
+}
+	/* 自定义下拉双选 */
+.haha_mytime{
+		position: relative;
+		width:100%;
+		top:50%;
+		left:50%;
+		-webkit-transform: translate(-50% , -50%);
+		        transform: translate(-50% , -50%);
+		height:60rpx;
+		line-height: 60rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		text-align: center;
+}
+.position_img{
+		width:28rpx !important;
+		height:18rpx !important;
+		position: absolute;
+		right: 30rpx;
+		top:50%;
+		-webkit-transform: translateY(-50%);
+		        transform: translateY(-50%);
+}
+.left{
+		width:21%
+}
+.right{
+		width:80%;
+		height:100%;
+		border-bottom:1px solid #E7E7E7;
+}
+.mybodydataright{
+		width:80%;
+		height:100%;
+}
+.right_list{
+		width:48%;
+		height:84rpx;
+		border:1px solid #E7E7E7;
+		margin:10rpx auto
+}
+.mi{
+		color:#A9A9A9;
+}
+.input-placeholder{
+		color:#A9A9A9;
+		font-size: 28rpx;
+}
+.center-zt{
+		width:65%;
+		color:#A9A9A9;
+		font-size: 28rpx;
+		letter-spacing: 4rpx;
+}
+.center-zt1{
+		display: none;
+}
+.right_box{
+		width:70%;
+}
+.fuckright_box{
+		width:70%;
+		position: relative;
+}
+.fuckhaha_mytime{
+		margin-top: 10rpx;
+		width:100%;
+		height:80rpx;
+		line-height: 80rpx;
+}
+.bloodhaha_mytime{
+		width:100%;
+		height:80rpx;
+		line-height: 80rpx;
+}
+.fuckposition_img{
+		width:28rpx !important;
+		height:18rpx !important;
+		position: absolute;
+		right: 30rpx;
+		top:30%;
+		-webkit-transform: translateY(-50%);
+		        transform: translateY(-50%);
+}
+.bloodosition_img{
+		width:28rpx !important;
+		height:18rpx !important;
+		position: absolute;
+		right: 30rpx;
+		top:50%;
+		-webkit-transform: translateY(-50%);
+		        transform: translateY(-50%);
+}
+.area{
+		height:230rpx;
+		margin:20rpx auto
+}
+.kuang{
+		width:98%;
+		height:180rpx;
+		border:1px solid #E7E7E7;
+		margin:20rpx 0 0 10rpx
+}
+.middle_right{
+		width:80%;
+		height:100%;
+		border:1px solid #E7E7E7;
+		color:#A9A9A9;
+		position: relative;
+}
+.uni-picker-container .uni-picker-content{
+		height:370rpx !important
+}
+.middle .top_list{
+		margin:15rpx auto
+}
+.top_list_img{
+		width:94%;
+		height:160rpx
+}
+.cu_form_group{
+		padding: 0.5px 15px;
+		min-height: 50px;
+}
+.sex_box{
+		width:43%
+}
+.right image{
+		width:120rpx;
+		height:120rpx;
+		margin-top:20rpx
+}
+.right input{
+		width:70%;
+}
+.left_new{
+		width:35%
+}
+.btn{
+		width:94%;
+		height:80rpx;
+		line-height: 80rpx;
+		background-color: #FCD00B;
+		border-radius: 20rpx;
+		text-align: center;
+		position: fixed;
+		bottom:60rpx;
+		left:20rpx;
+		z-index: 9;
+}
+.next_img{
+		width:28rpx !important;
+		height:18rpx !important;
+		margin-top:0px !important;
+}
+.padding-xl{
+		width:620rpx;
+		background-color: #FFFFFF;
+		border-top:1px solid #E8E8E8;
+		padding:32rpx
+}
+.padding-xl view{
+		font-size:38rpx
+}
+.cu-btn{
+		width:200rpx;
+		background-color: #FCD00B;
+}
+.cu-dialog{
+		width:590rpx;
+		height:340rpx;
+		background-color: #FFFFFF;
+}
+.content{
+		font-size: 28rpx;
+}
+	/* .uni-radio-input-checked:: after {
+		content: "";
+		background-color: transparent;
+		display: block;
+		position: absolute;
+		width: 6px;
+		height: 6px;
+		z-index: 999;
+		top: 0rpx;
+		left: -15px;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		border-radius: 200rpx;
+		border: 8px solid #ffffff !important;
+	
+	} */
+	/* 	uni-picker-view {
+	  display: block;
+	  left: 0;
+	  right:0;
+	  height: 400rpx;
+	  position: absolute;
+	  bottom: 0;
+	  z-index: 999;
+	} 
+	
+	uni-picker-view .uni-picker-view-wrapper {
+	  display: flex;
+	  position: relative;
+	  overflow: hidden;
+	  height: 100%;
+	  background-color: white;
+	}
+	.uni-picker-header{
+	    display: block;
+	    position: relative;
+	    text-align: center;
+	    width: 100%;
+	    height: 45px;
+	    background-color: #fff;
+	}
+	.uni-picker-action{
+	    display: block;
+	    max-width: 50%;
+	    top: 0;
+	    height: 100%;
+	    box-sizing: border-box;
+	    padding: 0 14px;
+	    font-size: 17px;
+	    line-height: 45px;
+	    overflow: hidden;
+	    cursor: pointer;
+	}
+	.uni-picker-action-cancel{
+		float: left;
+		color: #888;
+	}
+	.uni-picker-action-confirm{
+	    float: right;
+	    color: #007aff;
+	}
+	uni-picker-view[hidden] {
+	  display: none;
+	}
+	picker-view {
+	    width: 100%;
+	    height: 600upx;
+	    margin-top:20upx;
+	}
+	.item {
+		line-height: 100upx;
+		text-align: center;
+	} */
+

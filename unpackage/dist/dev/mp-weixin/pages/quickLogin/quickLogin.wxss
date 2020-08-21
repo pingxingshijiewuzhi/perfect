@@ -1,0 +1,126 @@
+
+.hintbox{
+		width: 100%;
+		text-align: center;
+		margin-top: 30rpx;
+}
+	/* 微信快速登录按钮 */
+.weichatlogin{
+		width:150rpx;
+		margin-top: 100rpx;
+		height:170rpx;
+		background-color: #FFFFFF;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+}
+uni-button:after{
+		border: 1rpx solid #FFFFFF!important;
+}
+.wximg{
+	margin-top: 20rpx;
+	width:50rpx;
+	height:50rpx;
+	border-radius: 50%;
+}
+.wxlogin{
+		font-size: 24rpx;
+		height: 100rpx;
+		width:120rpx;
+		line-height: 100rpx;
+		text-align: center;
+}
+.box{
+		width: 100vw;
+		height: 100vh;
+		background-color: #FFFFFF;
+		overflow: hidden;
+}
+.boxs{
+	width: 90%;
+	margin: 0 5%;
+}
+.border{
+		width: 45%;
+		height: 108rpx;
+		font-size: 46rpx;
+		font-weight: 550;
+		margin-top: 140rpx;
+		background-image: url(https://wmjsapi.perfectrace.cn/images/static/image/img_l_dl@2x.png);
+		background-size: 100% 20%;
+		background-repeat: no-repeat;
+		background-position:50% 50% ;
+		letter-spacing: 3rpx;
+}
+input{
+		height: 100rpx;
+		border-bottom: 1rpx solid #EEEEEE;
+}
+.button{
+		line-height: 90rpx;
+		border-radius: 50rpx 50rpx;
+		background-color: #FDDE50;
+		font-size: 36rpx;
+		font-weight:500;
+		text-align: center;
+		margin-top: 160rpx;
+}
+.images image{
+		width: 40rpx;
+		height: 30rpx;
+		margin-left:20rpx
+}
+.next{
+		font-size: 34rpx;
+		font-weight: 500;
+		margin-top: 40rpx;
+}
+.foget{
+		font-size: 32rpx;
+		color: #808080;
+		letter-spacing: 2rpx;
+}
+.cu-form-group{
+		padding: 0 !important;
+		margin-right: 10rpx;
+}
+.cu-form-group .title{
+		color:#3D3D3D;
+		padding-left: 20rpx;
+		letter-spacing: 3rpx;
+}
+.foget{
+		position: absolute;
+		right: 40rpx;
+}
+.round :hover{
+		border-color:#EEEEEE !important;
+}
+.input-placeholder{
+		color:#A2A2A2
+}
+.uni-checkbox-input{
+	    margin: 1px;
+	    padding: 2px;
+	    width: 30rpx;
+	    height: 30rpx;
+}
+.uni-checkbox-input-checked{
+		margin: 1px;
+		padding: 2px;
+		width: 30rpx;
+		height: 30rpx;
+		background-color: #FDDE50 !important;
+		border-color: #FDDE50 !important;
+		color: none !important;
+		border-color: #FDDE50 !important;
+}
+	
+

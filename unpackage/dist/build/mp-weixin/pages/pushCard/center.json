@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "打卡内容",
+  "usingComponents": {
+    "time-selector": "/components/wing-time-selector/wing-time-selector"
+  }
+}
